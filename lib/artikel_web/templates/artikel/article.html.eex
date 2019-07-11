@@ -1,0 +1,7 @@
+<div class="phx-hero1">
+  <h2>Articles</h2>
+
+  <h3><%= @article.title %></h3>
+  <h4><%= raw hd(@article.translations).body %></h4>
+
+</div>

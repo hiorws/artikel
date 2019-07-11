@@ -1,0 +1,9 @@
+<div class="phx-hero1">
+  <h2>Articles</h2>
+  <ul>
+  <%= for key <- @articles do %>
+    <li><%= link raw(key.title), to: Routes.artikel_path(@conn, :show_article, key.id) %></li>
+    </br>
+  <% end %>
+  </ul>
+</div>
