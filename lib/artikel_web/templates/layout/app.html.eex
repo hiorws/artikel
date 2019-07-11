@@ -16,7 +16,7 @@
           </ul>
         </nav>
         <%= link to: "/" do %>
-          <img src="<%= Routes.static_path(@conn, "/images/phoenix.png") %>" alt="Artikel"/>
+          <img src="<%= Routes.static_path(@conn, "/images/elevio.png") %>" alt="Artikel"/>
         <% end %>
       </section>
     </header>
